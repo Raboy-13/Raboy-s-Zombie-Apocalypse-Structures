@@ -1,0 +1,22 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "minecraft:abandoned_houses_feature"
+		},
+		"features": [
+			[
+				"minecraft:abandoned_house1_feature",
+				5
+			],
+			[
+				"minecraft:abandoned_house2_feature",
+				3
+			],
+			[
+				"minecraft:abandoned_house3_feature",
+				5
+			]
+		]
+	}
+}

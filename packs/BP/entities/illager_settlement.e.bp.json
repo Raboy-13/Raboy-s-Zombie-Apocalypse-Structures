@@ -1,0 +1,59 @@
+{
+    "format_version": "1.19.60",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "zom:illager_settlement",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false,
+            "animations": {
+                "general": "controller.animation.illager_settlement"
+            },
+            "scripts": {
+                "animate": [
+                    "general"
+                ]
+            }
+        },
+        "events": {
+            "zom:despawn": {
+                "add": {
+                    "component_groups": [
+                        "zom:despawn"
+                    ]
+                }
+            }
+        },
+        "component_groups": {
+            "zom:despawn": {
+                "minecraft:instant_despawn": {}
+            }
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": [
+                    "dummy",
+                    "illager_settlement"
+                ]
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:collision_box": {
+                "height": 0.001,
+                "width": 0.001
+            },
+            "minecraft:physics": {},
+            "minecraft:conditional_bandwidth_optimization": {}
+        }
+    }
+}

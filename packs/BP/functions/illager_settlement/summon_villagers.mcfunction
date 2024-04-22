@@ -1,0 +1,15 @@
+summon villager ~ ~ ~
+summon villager ~ ~ ~
+summon villager ~ ~ ~
+summon villager ~ ~ ~
+summon villager ~ ~ ~
+summon villager ~ ~ ~
+summon villager ~ ~ ~
+summon villager ~ ~ ~
+summon villager ~ ~ ~
+summon villager ~ ~ ~
+summon villager ~ ~ ~
+summon villager ~ ~ ~
+summon villager ~ ~ ~
+summon villager ~ ~ ~
+setblock ~ ~ ~ air

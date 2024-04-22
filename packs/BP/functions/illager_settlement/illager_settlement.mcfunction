@@ -1,0 +1,9 @@
+structure load settlement:illager_seg1 ~ ~ ~ 0_degrees
+structure load settlement:illager_seg2 ~34 ~ ~ 0_degrees
+structure load settlement:illager_seg3 ~68 ~ ~ 0_degrees
+structure load settlement:illager_seg4 ~ ~ ~-35 0_degrees
+structure load settlement:illager_seg5 ~34 ~ ~-35 0_degrees
+structure load settlement:illager_seg6 ~68 ~ ~-35 0_degrees
+structure load settlement:illager_seg7 ~ ~ ~-70 0_degrees
+structure load settlement:illager_seg8 ~34 ~ ~-70 0_degrees
+structure load settlement:illager_seg9 ~68 ~ ~-70 0_degrees

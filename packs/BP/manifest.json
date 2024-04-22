@@ -1,0 +1,45 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Raboy13"
+		]
+	},
+	"header": {
+		"name": "Raboy's Zombie Apocalypse Structures",
+		"description": "Raboy's Zombie Apocalypse naturally-spawning strctures: Illager Settlement and Abandoned Houses\nYouTube: Raboy13",
+		"min_engine_version": [
+			1,
+			20,
+			70
+		],
+		"uuid": "ee99c77b-5bb5-4126-97e5-cde07c4836a9",
+		"version": [
+			1,
+			2,
+			11
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "7a73eca1-ef44-4b22-ac7d-d522874f2f04",
+			"version": [
+				1,
+				2,
+				11
+			]
+		}
+	],
+	"dependencies": [
+		//Behavior Pack
+		{
+			"uuid": "f8d9bfdc-f3b2-411e-9004-0e9c764b89d7",
+			"version": [
+				1,
+				2,
+				11
+			]
+		}
+	]
+}

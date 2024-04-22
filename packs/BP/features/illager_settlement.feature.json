@@ -1,0 +1,21 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:structure_template_feature": {
+        "description": {
+            "identifier": "minecraft:illager_settlement_feature"
+        },
+        "structure_name": "settlement:illager_settlement_spawner",
+        "adjustment_radius": 16,
+        "facing_direction": "random",
+        "constraints": {
+            "unburied": {},
+            "grounded": {},
+            "block_intersection": {
+                "block_allowlist": [
+                    "air",
+                    "dirt"
+                ]
+            }
+        }
+    }
+}
