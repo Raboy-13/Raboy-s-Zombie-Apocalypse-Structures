@@ -2,8 +2,8 @@
     "format_version": "1.13.0",
     "minecraft:feature_rules": {
         "description": {
-            "identifier": "minecraft:abandoned_houses_feature_rule",
-            "places_feature": "minecraft:abandoned_houses_feature"
+            "identifier": "minecraft:abandoned_houses.feature_rule",
+            "places_feature": "zom:abandoned_houses.feature"
         },
         "conditions": {
             "placement_pass": "surface_pass",
@@ -40,7 +40,7 @@
         },
         "distribution": {
             "iterations": 1,
-            "scatter_chance": 1.3452,
+            "scatter_chance": 1.4452,
             "x": {
                 "distribution": "uniform",
                 "extent": [

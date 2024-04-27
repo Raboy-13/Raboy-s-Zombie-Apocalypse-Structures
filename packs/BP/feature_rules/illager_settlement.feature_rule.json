@@ -2,8 +2,8 @@
     "format_version": "1.13.0",
     "minecraft:feature_rules": {
         "description": {
-            "identifier": "minecraft:illager_settlement_feature_rule",
-            "places_feature": "minecraft:illager_settlement_feature"
+            "identifier": "minecraft:illager_settlement.feature_rule",
+            "places_feature": "zom:illager_settlement.feature"
         },
         "conditions": {
             "placement_pass": "first_pass",
@@ -21,7 +21,7 @@
         },
         "distribution": {
             "iterations": 1,
-            "scatter_chance": 0.145,
+            "scatter_chance": 0.1215,
             "x": {
                 "distribution": "uniform",
                 "extent": [
