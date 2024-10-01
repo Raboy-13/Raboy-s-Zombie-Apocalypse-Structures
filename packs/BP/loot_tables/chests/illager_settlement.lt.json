@@ -13,12 +13,12 @@
         },
         {
           "type": "item",
-          "name": "zom:turret_base",
+          "name": "rza:turret_base",
           "weight": 3
         },
         {
           "type": "item",
-          "name": "zom:arrow_turret_item",
+          "name": "rza:arrow_turret_item",
           "weight": 3
         }
       ]

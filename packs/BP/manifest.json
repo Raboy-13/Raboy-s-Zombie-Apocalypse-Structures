@@ -10,8 +10,8 @@
 		"description": "Raboy's Zombie Apocalypse naturally-spawning strctures: Illager Settlement and Abandoned Houses\nYouTube: Raboy13",
 		"min_engine_version": [
 			1,
-			20,
-			80
+			21,
+			30
 		],
 		"uuid": "ee99c77b-5bb5-4126-97e5-cde07c4836a9",
 		"version": [
@@ -38,7 +38,7 @@
 			"version": [
 				1,
 				2,
-				21
+				22
 			]
 		}
 	]

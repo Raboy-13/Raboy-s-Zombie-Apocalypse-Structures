@@ -1,2 +1,2 @@
-summon zom:illager_settlement ~ ~ ~
+summon rza:illager_settlement ~ ~ ~
 setblock ~ ~ ~ air

@@ -2,7 +2,7 @@
     "format_version": "1.13.0",
     "minecraft:structure_template_feature": {
         "description": {
-            "identifier": "zom:abandoned_house3.feature"
+            "identifier": "rza:abandoned_house3.feature"
         },
         "structure_name": "buildings:a_house3s",
         "adjustment_radius": 8,

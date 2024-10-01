@@ -3,7 +3,7 @@
     "minecraft:feature_rules": {
         "description": {
             "identifier": "minecraft:illager_settlement.feature_rule",
-            "places_feature": "zom:illager_settlement.feature"
+            "places_feature": "rza:illager_settlement.feature"
         },
         "conditions": {
             "placement_pass": "first_pass",

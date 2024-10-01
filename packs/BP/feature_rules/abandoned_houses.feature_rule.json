@@ -3,7 +3,7 @@
     "minecraft:feature_rules": {
         "description": {
             "identifier": "minecraft:abandoned_houses.feature_rule",
-            "places_feature": "zom:abandoned_houses.feature"
+            "places_feature": "rza:abandoned_houses.feature"
         },
         "conditions": {
             "placement_pass": "surface_pass",

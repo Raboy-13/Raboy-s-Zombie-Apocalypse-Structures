@@ -2,7 +2,7 @@
     "format_version": "1.19.60",
     "minecraft:entity": {
         "description": {
-            "identifier": "zom:illager_settlement",
+            "identifier": "rza:illager_settlement",
             "is_spawnable": false,
             "is_summonable": true,
             "is_experimental": false,
@@ -16,16 +16,16 @@
             }
         },
         "events": {
-            "zom:despawn": {
+            "rza:despawn": {
                 "add": {
                     "component_groups": [
-                        "zom:despawn"
+                        "rza:despawn"
                     ]
                 }
             }
         },
         "component_groups": {
-            "zom:despawn": {
+            "rza:despawn": {
                 "minecraft:instant_despawn": {}
             }
         },

@@ -1,5 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/Bedrock-OSS/regolith-schemas/main/config/v1.2.json",
+	"$schema": "https://raw.githubusercontent.com/Bedrock-OSS/regolith-schemas/main/config/v1.4.json",
 	"author": "Raboy13",
 	"name": "Raboy's Zombie Apocalypse Structures",
 	"packs": {
@@ -7,14 +7,32 @@
 	},
 	"regolith": {
 		"dataPath": "./packs/data",
-		"filterDefinitions": {},
+		"filterDefinitions": {
+			"addon_builder": {
+				"url": "github.com/Raboy-13/Regolith-Filters",
+				"version": "7bc3bd763825ab3f204bf086844c3731c33f9e4b"
+			}
+		},
+		"formatVersion": "1.4.0",
 		"profiles": {
 			"default": {
 				"export": {
 					"readOnly": false,
-					"target": "development"
+					"target": "development",
+					"build": "standard"
 				},
 				"filters": []
+			},
+			"build": {
+				"export": {
+					"readOnly": false,
+					"target": "local"
+				},
+				"filters": [
+					{
+						"filter": "addon_builder"
+					}
+				]
 			}
 		}
 	}

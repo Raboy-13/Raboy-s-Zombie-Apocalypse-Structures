@@ -23,7 +23,7 @@
 				},
 				"despawn": {
 					"on_entry": [
-						"/event entity @s zom:despawn"
+						"/event entity @s rza:despawn"
 					]
 				}
 			}

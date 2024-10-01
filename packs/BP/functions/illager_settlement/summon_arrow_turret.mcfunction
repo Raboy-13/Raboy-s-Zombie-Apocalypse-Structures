@@ -1,2 +1,2 @@
-summon zom:arrow_turret ~ ~-1 ~
+summon rza:arrow_turret ~ ~-1 ~
 setblock ~ ~ ~ air
