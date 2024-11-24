@@ -6,9 +6,9 @@
 
 This is the structure pack that pairs with Raboy's Zombie Apocalypse (RZA) Add-On. Import this into your world to generate the custom structures that naturally-generate around the world when RZA is active.
 
-![License](https://img.shields.io/badge/license-Custom-red)
-![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.40+-blue)
-![Version](https://img.shields.io/badge/version-1.2.3-green)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21.40+-green)
+![Version](https://img.shields.io/badge/version-1.2.3-orange)
 
 ## 🌟 Features
 
