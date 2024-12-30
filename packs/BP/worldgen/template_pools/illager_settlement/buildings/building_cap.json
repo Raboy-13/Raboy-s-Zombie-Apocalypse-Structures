@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "rza:building_cap"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/building_caps/street_light1",
+          "processors": "rza:empty"
+        },
+        "weight": 1,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/building_caps/street_light2",
+          "processors": "rza:empty"
+        },
+        "weight": 1,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/building_caps/arrow_turret",
+          "processors": "rza:building_designer"
+        },
+        "weight": 1,
+        "projection": "rigid"
+      }
+    ]
+  }
+}

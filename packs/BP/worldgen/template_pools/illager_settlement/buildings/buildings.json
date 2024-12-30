@@ -1,0 +1,326 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "rza:buildings"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/houses/house1",
+          "processors": "rza:building_designer"
+        },
+        "weight": 4,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/houses/house2",
+          "processors": "rza:building_designer"
+        },
+        "weight": 4,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/houses/house3",
+          "processors": "rza:building_designer"
+        },
+        "weight": 4,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/houses/house4",
+          "processors": "rza:building_designer"
+        },
+        "weight": 4,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/houses/house5",
+          "processors": "rza:building_designer"
+        },
+        "weight": 4,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/houses/house6",
+          "processors": "rza:building_designer"
+        },
+        "weight": 4,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/houses/house7",
+          "processors": "rza:building_designer"
+        },
+        "weight": 4,
+        "projection": "rigid"
+      },
+      { // General Workplace
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/workplaces/workplace1",
+          "processors": "rza:building_designer"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      { // Weaponsmith Workplace
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/workplaces/workplace2",
+          "processors": "rza:building_designer"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      { // Butcher Workplace
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/workplaces/workplace3",
+          "processors": "rza:building_designer"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      { // Cartographer Workplace
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/workplaces/workplace4",
+          "processors": "rza:building_designer"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      { // Shepherd Workplace
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/workplaces/workplace5",
+          "processors": "rza:building_designer"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      { // Stone Mason Workplace
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/workplaces/workplace6",
+          "processors": "rza:building_designer"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      { // Armorer Workplace
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/workplaces/workplace7",
+          "processors": "rza:building_designer"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      { // Fletcher Workplace
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/workplaces/workplace8",
+          "processors": "rza:building_designer"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      { // Toolsmith Workplace
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/workplaces/workplace9",
+          "processors": "rza:building_designer"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      { // Fisherman Workplace
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/workplaces/workplace10",
+          "processors": "rza:building_designer"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      { // Leatherworker Workplace
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/workplaces/workplace11",
+          "processors": "rza:building_designer"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      { // Cleric Workplace
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/workplaces/workplace12",
+          "processors": "rza:building_designer"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      { // Librarian Workplace
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/workplaces/workplace13",
+          "processors": "rza:building_designer"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/farms/farm1",
+          "processors": "rza:farm1_designer"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/farms/farm2",
+          "processors": "rza:building_designer"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/farms/farm3",
+          "processors": "rza:farm1_designer"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/farms/farm4",
+          "processors": "rza:farm1_designer"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/farms/farm5",
+          "processors": "rza:empty"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/farms/farm6",
+          "processors": "rza:empty"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/farms/farm7",
+          "processors": "rza:empty"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/animal_pens/animal_pen1",
+          "processors": "rza:empty"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/animal_pens/animal_pen2",
+          "processors": "rza:empty"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/animal_pens/animal_pen3",
+          "processors": "rza:empty"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/animal_pens/animal_pen4",
+          "processors": "rza:empty"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/animal_pens/animal_pen5",
+          "processors": "rza:empty"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/animal_pens/animal_pen6",
+          "processors": "rza:empty"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/animal_pens/animal_pen7",
+          "processors": "rza:empty"
+        },
+        "weight": 2,
+        "projection": "rigid"
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/buildings/illager_tower",
+          "processors": "rza:illager_tower_designer"
+        },
+        "weight": 4,
+        "projection": "rigid"
+      }
+    ],
+    "fallback": "rza:building_cap"
+  }
+}

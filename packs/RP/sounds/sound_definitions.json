@@ -1,0 +1,157 @@
+{
+    "format_version": "1.20.81",
+    "sound_definitions": {
+        "ambient.apocalyptic_wasteland.additions": {
+            "category": "weather",
+            "sounds": [
+                {
+                    "is3D": true,
+                    "name": "sounds/environment/biomes/additions/bee",
+                    "stream": false,
+                    "weight": 8,
+                    "volume": 0.4
+                },
+                {
+                    "is3D": true,
+                    "name": "sounds/environment/biomes/additions/cicadas",
+                    "stream": false,
+                    "weight": 12,
+                    "volume": 0.5
+                },
+                {
+                    "is3D": true,
+                    "name": "sounds/environment/biomes/additions/cricket1",
+                    "stream": false,
+                    "weight": 10,
+                    "volume": 0.45
+                },
+                {
+                    "is3D": true,
+                    "name": "sounds/environment/biomes/additions/cricket2",
+                    "stream": false,
+                    "weight": 10,
+                    "volume": 0.45
+                },
+                {
+                    "is3D": true,
+                    "name": "sounds/environment/biomes/additions/cricket3",
+                    "stream": false,
+                    "weight": 10,
+                    "volume": 0.45
+                },
+                {
+                    "is3D": true,
+                    "name": "sounds/environment/biomes/additions/crows",
+                    "stream": false,
+                    "weight": 6,
+                    "volume": 0.6
+                },
+                {
+                    "is3D": true,
+                    "name": "sounds/environment/biomes/additions/fly",
+                    "stream": false,
+                    "weight": 7,
+                    "volume": 0.35
+                }
+            ]
+        },
+        "ambient.apocalyptic_wasteland.loops": {
+            "category": "weather",
+            "max_distance": null,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "is3D": false,
+                    "name": "sounds/environment/biomes/loops/wind1",
+                    "stream": true,
+                    "weight": 10,
+                    "volume": 0.45
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/environment/biomes/loops/wind2",
+                    "stream": true,
+                    "weight": 10,
+                    "volume": 0.45
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/environment/biomes/loops/wind3",
+                    "stream": true,
+                    "weight": 10,
+                    "volume": 0.45
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/environment/biomes/loops/desert_ambience",
+                    "stream": true,
+                    "weight": 11,
+                    "volume": 0.55
+                }
+            ]
+        },
+        "ambient.beach.loops": {
+            "category": "weather",
+            "max_distance": null,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "is3D": false,
+                    "name": "sounds/environment/biomes/loops/beach1",
+                    "stream": true,
+                    "weight": 10,
+                    "volume": 0.45
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/environment/biomes/loops/beach2",
+                    "stream": true,
+                    "weight": 10,
+                    "volume": 0.45
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/environment/biomes/loops/beach3",
+                    "stream": true,
+                    "weight": 10,
+                    "volume": 0.45
+                }
+            ]
+        },
+        "ambient.river.loops": {
+            "category": "weather",
+            "max_distance": null,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "is3D": false,
+                    "name": "sounds/environment/biomes/loops/river1",
+                    "stream": true,
+                    "weight": 10,
+                    "volume": 0.45
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/environment/biomes/loops/river2",
+                    "stream": true,
+                    "weight": 10,
+                    "volume": 0.45
+                }
+            ]
+        },
+        "ambient.ocean.loops": {
+            "category": "weather",
+            "max_distance": null,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "is3D": false,
+                    "name": "sounds/environment/biomes/loops/ocean",
+                    "stream": true,
+                    "weight": 10,
+                    "volume": 0.45
+                }
+            ]
+        }
+    }
+}

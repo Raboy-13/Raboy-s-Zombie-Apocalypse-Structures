@@ -1,0 +1,21 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:structure_set": {
+    "description": {
+      "identifier": "rza:illager_settlement"
+    },
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 48262917,
+      "separation": 4,
+      "spacing": 18,
+      "spread_type": "linear"
+    },
+    "structures": [
+      {
+        "structure": "rza:illager_settlement",
+        "weight": 1
+      }
+    ]
+  }
+}

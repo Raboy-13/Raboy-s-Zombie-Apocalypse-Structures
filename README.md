@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏚️ Raboy's Zombie Apocalypse Structures
+# 🏚️ RZA Worldgen Pack
 
 This is the structure pack that pairs with Raboy's Zombie Apocalypse (RZA) Add-On. Import this into your world to generate the custom structures that naturally-generate around the world when RZA is active.
 
@@ -14,7 +14,7 @@ This is the structure pack that pairs with Raboy's Zombie Apocalypse (RZA) Add-O
 
 ### Illager Settlement
 - Large settlement structure with multiple segments
-- Inhabited by hostile illagers and ravagers
+- Inhabited by illagers, villagers, evokers, and ravagers
 - Defensive arrow turrets
 - Custom loot tables with valuable items
 - Strategic placement in overworld biomes
@@ -29,7 +29,7 @@ This is the structure pack that pairs with Raboy's Zombie Apocalypse (RZA) Add-O
 ## 🛠️ Technical Details
 
 ### Structures
-- Feature-based structure generation
+- jigsaw-based structure generation
 - Customized spawn conditions and constraints
 - Optimized placement algorithms
 - Segment-based building system for larger structures
@@ -41,7 +41,6 @@ This is the structure pack that pairs with Raboy's Zombie Apocalypse (RZA) Add-O
 - Resource-appropriate quantities
 
 ## 📦 Installation
-
 1. Download the latest release
 2. Import the behavior pack into Minecraft
 3. Enable the pack in your world settings

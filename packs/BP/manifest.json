@@ -6,8 +6,8 @@
 		]
 	},
 	"header": {
-		"name": "Raboy's Zombie Apocalypse Structures",
-		"description": "Raboy's Zombie Apocalypse naturally-spawning strctures: Illager Settlement and Abandoned Houses\nYouTube: Raboy13",
+		"name": "RZA Worldgen Pack",
+		"description": "Raboy's Zombie Apocalypse naturally-spawning strctures: Illager Settlement and Abandoned Houses and Atmospheric Ambience\nYouTube: Raboy13",
 		"min_engine_version": [
 			1,
 			21,
@@ -29,10 +29,21 @@
 				2,
 				3
 			]
+		},
+		{
+			"type": "script",
+			"uuid": "242a7fa9-6709-49cb-9c11-2c8d11315e8e",
+			"entry": "scripts/rza_structures/main.js",
+			"language": "javascript",
+			"version": [
+				1,
+				2,
+				3
+			]
 		}
 	],
 	"dependencies": [
-		//Behavior Pack
+		// Main Behavior Pack
 		{
 			"uuid": "f8d9bfdc-f3b2-411e-9004-0e9c764b89d7",
 			"version": [
@@ -40,6 +51,19 @@
 				2,
 				3
 			]
+		},
+		// Resource Pack
+		{
+			"uuid": "2a2c0a95-44be-4a3e-9bcb-7cca3803c0d3",
+			"version": [
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.16.0"
 		}
 	]
 }

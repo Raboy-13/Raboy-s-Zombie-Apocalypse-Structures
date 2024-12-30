@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "rza:center_tree"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "settlement/center_tree",
+          "processors": "rza:center_tree_designer"
+        },
+        "weight": 1,
+        "projection": "rigid"
+      }
+    ]
+  }
+}

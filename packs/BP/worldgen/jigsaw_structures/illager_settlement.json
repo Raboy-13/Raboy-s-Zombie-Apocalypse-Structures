@@ -1,0 +1,49 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:jigsaw": {
+    "description": {
+      "identifier": "rza:illager_settlement"
+    },
+    "biome_filters": [
+      {
+        "all_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "overworld"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "ocean"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "river"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "!=",
+            "value": "beach"
+          },
+          {
+            "any_of": [
+              {
+                "test": "has_biome_tag",
+                "operator": "==",
+                "value": "plains"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "step": "surface_structures",
+    "terrain_adaptation": "beard_thin",
+    "start_pool": "rza:center_tree",
+    "max_depth": 20,
+    "start_height": 0,
+    "heightmap_projection": "world_surface"
+  }
+}

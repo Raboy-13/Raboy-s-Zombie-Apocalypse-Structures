@@ -1,0 +1,1 @@
+summon ravager ~ ~ ~ ~ ~ rza:spawn_for_village

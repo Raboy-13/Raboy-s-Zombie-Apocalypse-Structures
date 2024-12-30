@@ -1,0 +1,31 @@
+{
+    "individual_named_sounds": {
+        "sounds": {
+            "apocalyptic_wasteland.additions": {
+                "sound": "ambient.apocalyptic_wasteland.additions",
+                "volume": 1,
+                "pitch": 1
+            },
+            "apocalyptic_wasteland.loops": {
+                "sound": "ambient.apocalyptic_wasteland.loops",
+                "volume": 1,
+                "pitch": 1
+            },
+            "beach.loops": {
+                "sound": "ambient.beach.loops",
+                "volume": 1,
+                "pitch": 1
+            },
+            "river.loops": {
+                "sound": "ambient.river.loops",
+                "volume": 1,
+                "pitch": 1
+            },
+            "ocean.loops": {
+                "sound": "ambient.ocean.loops",
+                "volume": 1,
+                "pitch": 1
+            }
+        }
+    }
+}

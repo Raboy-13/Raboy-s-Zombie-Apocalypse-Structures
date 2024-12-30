@@ -1,0 +1,85 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "rza:particle_player",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "properties": {
+        "rza:effect_length": {
+          "type": "int",
+          "client_sync": false,
+          "range": [
+            0,
+            6000
+          ],
+          "default": 0
+        },
+        "rza:particle_active": {
+          "type": "bool",
+          "client_sync": false,
+          "default": false
+        },
+        "rza:effect2_length": {
+          "type": "int",
+          "client_sync": false,
+          "range": [
+            0,
+            6000
+          ],
+          "default": 0
+        }
+      }
+    },
+    "component_groups": {},
+    "components": {
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": "no"
+          }
+        ]
+      },
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "filters": {
+              "none_of": [
+                {
+                  "test": "has_biome_tag",
+                  "value": "ocean",
+                  "subject": "self"
+                }
+              ]
+            },
+            "event": "rza:play_particles"
+          },
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "has_biome_tag",
+                  "value": "ocean",
+                  "subject": "self"
+                }
+              ]
+            },
+            "event": "rza:reset_in_ocean"
+          }
+        ]
+      }
+    },
+    "events": {
+      "rza:play_particles": {},
+      "rza:reset_in_ocean": {
+        "set_property": {
+          "rza:effect_length": 0,
+          "rza:effect2_length": 0,
+          "rza:particle_active": false
+        }
+      }
+    }
+  }
+}
